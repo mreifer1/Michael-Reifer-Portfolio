@@ -14,9 +14,8 @@ export const HeroSection = () => {
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Reifer</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I'm a junior at Towson University, and I'm getting my bachelor's in computer science. 
-                    I will be graduating in May 2026, and I am interested in Front-End/Back-End development. 
-                    I'm open to any opportunities in the computer science field.
+                    I'm interested in anything related to full-stack development.
+                    I use modern technologies to build full-stack applications and host them.                
                 </p>
                 <div className="opacity-0 animate-fade-in-delay-4">
                     <a href="#projects" className="cosmic-button">
