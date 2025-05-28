@@ -20,7 +20,7 @@ const projects = [
     {
         id: 3,
         title: "Murder Mystery Project",
-        description: "Text-based game which is similar to clue. The game runs through the command line and displays OOP principles. The goal of the game is to solve who commited a murder and find what they used",
+        description: "Text-based game which is similar to clue. The game runs through the command line and displays OOP principles. The goal of the game is to solve who committed a murder and find what they used",
         image: "/Michael-Reifer-Portfolio/projects/project3.png",
         tags: ["Object-Oriented-Programming", "Polymorphism", "Inheritance"],
         githubUrl: "https://github.com/mreifer1/Murder-Mystery-Project",
