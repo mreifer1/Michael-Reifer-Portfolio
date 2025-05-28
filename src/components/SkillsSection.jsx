@@ -18,14 +18,14 @@ const skills = [
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "VS Code", level: 90, category: "tools" },
 
-  //Languages 
-  { name: "Java", level: 90, category: "languages" },
-  { name: "Python", level: 80, category: "languages" },
-  { name: "C/C++", level: 70, category: "languages" },
+  //Programming Languages 
+  { name: "Java", level: 90, category: "Programming Languages" },
+  { name: "Python", level: 80, category: "Programming Languages" },
+  { name: "C/C++", level: 70, category: "Programming Languages" },
   
 ];
 
-const categories = ["all", "frontend", "backend", "tools", "languages"]
+const categories = ["all", "frontend", "backend", "tools", "Programming Languages"]
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all")
@@ -66,7 +66,7 @@ export const SkillsSection = () => {
                         <div className="text-left mb-4">
                             <h3 className="font-semibold text-lg">{skill.name}</h3>
                         </div>
-                        <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
+                        {/* <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                             <div 
                             className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_east-out" 
                             style={{width: skill.level + "%"}}
@@ -74,7 +74,7 @@ export const SkillsSection = () => {
                         </div>
                         <div className="text-right mt-1">
                             <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                        </div>
+                        </div> */}
                     </div>
                 ))}
             </div>
