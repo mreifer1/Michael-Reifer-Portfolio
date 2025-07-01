@@ -9,5 +9,3 @@ This repository is for my website and will be deployed on Github pages.
 - **React.js**
 - **JavaScript**
 - **Tailwind CSS**
-
-e
