@@ -13,16 +13,20 @@ const skills = [
   { name: "Express", level: 85, category: "backend" },
   { name: "MongoDB", level: 85, category: "backend" },
   { name: "Mongoose", level: 85, category: "backend" },
+  { name: "MySQL", level: 85, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "VS Code", level: 90, category: "tools" },
+  { name: "MySQL Workbench", level: 85, category: "tools" },
 
   //Programming Languages 
   { name: "Java", level: 90, category: "Programming Languages" },
   { name: "Python", level: 80, category: "Programming Languages" },
   { name: "C/C++", level: 70, category: "Programming Languages" },
   { name: "JavaScript", level: 85, category: "Programming Languages" },
+  { name: "Rust", level: 70, category: "Programming Languages" },
+  { name: "SQL", level: 85, category: "Programming Languages" },
   
 ];
 
