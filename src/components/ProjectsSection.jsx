@@ -19,26 +19,34 @@ const projects = [
     },
     {
         id: 3,
-        title: "Murder Mystery Project",
-        description: "Text-based game which is similar to clue. The game runs through the command line and displays OOP principles. The goal of the game is to solve who committed a murder and find what they used",
+        title: "EHIREUS",
+        description: "Fully functional database application for the needs that the company Ehireus had (for academic purposes). The application supported CRUD operations using a simple GUI for all types of data the company needed to record (i.e.,timesheets, clients, employees).",
         image: "/Michael-Reifer-Portfolio/projects/project3.png",
-        tags: ["Object-Oriented-Programming", "Polymorphism", "Inheritance"],
-        githubUrl: "https://github.com/mreifer1/Murder-Mystery-Project",
+        tags: ["Java", "SQL", "MySQL", "Java Swing", "Git"],
+        githubUrl: "https://github.com/mreifer1/EHIREUS",
     },
     {
         id: 4,
-        title: "AI in Cybersecurity for the Financial Sector",
-        description: "Deep dive into the use of methods such as Machine Learning, Artificial Neural Networks, NIDs, GANs, and more.",
+        title: "Rust LOLCODE Compiler",
+        description: "Developed a fully functional compiler for a made-up LOLCODE programming language that was similar to HTML. Programmed in Rust, the compiler would take in a .lol file and convert it to HTML and open the converted file in the browser.",
         image: "/Michael-Reifer-Portfolio/projects/project4.png",
-        tags: ["NIDs", "GANs", "Machine Learning", "ANNs"],
-        githubUrl: "https://github.com/mreifer1/Artificial-Intelligence-The-New-Tool-For-Cybersecurity-in-Finance",
+        tags: ["Rust", "Git"],
+        githubUrl: "https://github.com/mreifer1/RUST_LOLCODE_COMPILER",
+    },
+    {
+        id: 5,
+        title: "Astronomy Diary",
+        description: "Android app made in Jetpack Compose allowing CRUD operations and using SQLite as a database. Astronomy Diary also allows the user to find astronomy data of a location of their choice. Users can perform CRUD operations to maintain their astronomy entries.",
+        image: "/Michael-Reifer-Portfolio/projects/project5.png",
+        tags: ["Kotlin", "Jetpack Compose", "Andriod Studio", "Git", "Bitbucket"],
+        githubUrl: "https://github.com/mreifer1/AstronomyDiary",
     },
 
 ]
 
 export const ProjectsSection = () => {
     return(
-      <section id="projects" className="py-24 px-4 relative">
+      <section id="projects" className="py-24 px-4 relative">D
         <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
                  Featured <span className="text-primary"> Projects </span>

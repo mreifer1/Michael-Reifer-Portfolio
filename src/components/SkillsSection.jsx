@@ -19,9 +19,11 @@ const skills = [
   { name: "Git/GitHub", level: 90, category: "tools" },
   { name: "VS Code", level: 90, category: "tools" },
   { name: "MySQL Workbench", level: 85, category: "tools" },
+  { name: "Android Studio", level: 85, category: "tools" },
 
   //Programming Languages 
   { name: "Java", level: 90, category: "Programming Languages" },
+  { name: "Kotlin", level: 80, category: "Programming Languages" },
   { name: "Python", level: 80, category: "Programming Languages" },
   { name: "C/C++", level: 70, category: "Programming Languages" },
   { name: "JavaScript", level: 85, category: "Programming Languages" },
